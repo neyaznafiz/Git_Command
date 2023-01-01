@@ -1,29 +1,52 @@
-git status 
+git status (for see the status about stage about your file)
+-----------------------------------------------
 
-git diff
+git diff (for see the changes)
+-----------------------------------------------
 
-git log 
-git log --oneline
+git log (for see fuull information about commit)
 
-git restore -- staged <file name>
-git restore <file name>
+git log --oneline (for see just commit number and message)
+-----------------------------------------------
 
-git reset HEAD^
-git reset --soft HEAD^
-git reset --hard HEAD^
+git restore -- staged <file name> (for restore you stage after git add)
 
-git checkout <commit number>
-git checkout <branch name>
+git restore <file name> (for restore you file what it was before)
+-----------------------------------------------
+
+git reset HEAD^ (for go to one step back)
+
+git reset --soft HEAD^ (for go to one step back)
+
+git reset --hard HEAD^ (for go to where start)
+-----------------------------------------------
+
+git checkout <commit number> (for go to the commit)
+
+git checkout <branch name> 
 git switch - 
-
-git checkout -b <new branch name>
-git checkout <branch name>
-
-git rm <file name>
-
-git pull origin <branch name>
-git pull --no-rebase 
+(for back from the commit)
 
 
-git merge --abort
-git rebase --abort
+-----------------------------------------------
+git branch (for check local branch)
+
+git branch -r (for check remote branch)
+
+git checkout -b <new branch name> (for create new branch)
+
+git checkout <branch name> (for switch to onother branch)
+-----------------------------------------------
+
+git rm <file name> (for remove file)
+-----------------------------------------------
+git pull origin <branch name> (for pll from other branch)
+
+git pull --no-rebase (for pull without rebase)
+-----------------------------------------------
+
+git merge <branch name> (for merge)
+
+git merge --abort (for stop merging)
+git rebase --abort (for stop rebasing)
+-----------------------------------------------
