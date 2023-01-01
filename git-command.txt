@@ -33,20 +33,32 @@ git branch (for check local branch)
 
 git branch -r (for check remote branch)
 
-git checkout -b <new branch name> (for create new branch)
+git branch -a (for check all of the branch)
 
-git checkout <branch name> (for switch to onother branch)
+git branch <new branch name> (for create a new branch)
+
+git checkout <branch name> (for switch to another branch)
+
+git checkout -b <new branch name> (for create and switch to new branch)
+
+git push --set-upstream origin <branch name> (for upstream/push your local branch to your github remote repository)
+
+git branch -d <branch name> (for delete any branch)
 -----------------------------------------------
 
 git rm <file name> (for remove file)
 -----------------------------------------------
-git pull origin <branch name> (for pll from other branch)
+git push -u origin <branch name> (for push to that branch)
+
+git pull origin <branch name> (for pull from other branch)
 
 git pull --no-rebase (for pull without rebase)
 -----------------------------------------------
 
-git merge <branch name> (for merge)
+git merge <branch name that you want to merge> (for merge two branches)
 
 git merge --abort (for stop merging)
+-----------------------------------------------
+
 git rebase --abort (for stop rebasing)
 -----------------------------------------------
