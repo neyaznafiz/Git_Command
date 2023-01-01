@@ -1,0 +1,29 @@
+git status 
+
+git diff
+
+git log 
+git log --oneline
+
+git restore -- staged <file name>
+git restore <file name>
+
+git reset HEAD^
+git reset --soft HEAD^
+git reset --hard HEAD^
+
+git checkout <commit number>
+git checkout <branch name>
+git switch - 
+
+git checkout -b <new branch name>
+git checkout <branch name>
+
+git rm <file name>
+
+git pull origin <branch name>
+git pull --no-rebase 
+
+
+git merge --abort
+git rebase --abort
